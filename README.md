@@ -2,25 +2,28 @@
 
 This is an example of how teams can structure their project repositories and format their project README.md file.
 
-When creating a project repository from this template choose "Public" so other participants can follow progress. Add a "topic" to your repository details (click on the gear icon next to the "About" section on the repository page) to help others find your work (e.g. `isea-hackweek-2024`).
-
-
 ## Files and folders in your project repository
 
 This template provides the following suggested organizaiton structure for the project repository, but each project team is free to organize their repository as they see fit.
 
 * **`contributors/`**
 <br> Each team member can create their own folder under contributors, within which they can work on their own scripts, notebooks, and other files. Having a dedicated folder for each person helps to prevent conflicts when merging with the main branch. This is a good place for team members to start off exploring data and methods for the project.
-* **`notebooks/`**
-<br> Notebooks that are considered delivered results for the project should go in here.
-* **`scripts/`**
-<br> Code that is shared by the team should go in here (e.g. functions or subroutines). These will be files other than Jupyter Notebooks such as Python scripts (.py).
+
+* **`data/`**
+<br> Data for the project should go in here. Alternatively, you can put your data in the team Google Drive folder.
+
+* **`deliverables/`**
+<br> Codes (Jupyter notebooks, Colab notebooks, Python scripts (.py)), data analysis results, reports that are considered delivered results for the project should go in here.
+
+* **`shared/`**
+<br> Code or notebooks that is shared by the team should go in here. These will be files such as Jupyter notebooks, Colab notebooks, Python scripts (.py), qualitative coding notebooks and so on.
+
 * `.gitignore`
-<br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files))
-* `environment.yml`
-<br> `conda` environment description needed to run this project.
+<br> This file sets the files that will be globally ignored by `git` for the project. (e.g. you may want git to ignore temporary files or large data files, [read more about ignoring files here](https://docs.github.com/en/get-started/getting-started-with-git/ignoring-files)).
+
 * `README.md`
-<br> Description of the project (see suggested headings below)
+<br> Description of the project.
+
 * `model-card.md`
 <br> Description (following a metadata standard) of any machine learning models used in the project
 
@@ -34,16 +37,18 @@ This template provides the following suggested organizaiton structure for the pr
 
 Provide a brief introduction describing the proposed work. Be sure to also decribe what skills team members will get to learn and practice as part of this project.
 
+### Project Sponsor 
+
 ### Collaborators
 
 List all participants on the project. Here is a good space to share your personal goals for the hackweek and things you can help with.
 
 | Name | Personal goals | Can help with | Role |
 | ------------- | ------------- | ------------- | ------------- |
-| Katherine J. | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
-| Rosalind F. | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
-| Alan T. | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
-| Rachel C. | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
+| Member 1 | I want to learn specific python libraries for working with these data  | I can help with understanding our dataset, programming in R  | Project Lead |
+| Member 2 | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
+| Member 3 | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
+| Rmember 4 | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
 | ... | ... | ... | ... |
 | ... | ... | ... | ... |
 
