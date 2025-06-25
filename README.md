@@ -49,7 +49,7 @@ List all participants on the project. Here is a good space to share your persona
 | Member 2 | Practice leading a software project | machine learning and python (scipy, scikit-learn) | Project Lead |
 | Member 3 | learning about your dataset | GitHub, Jupyter, cloud computing | Project Helper |
 | Rmember 4 | learn to use github, resolve merge conflicts | I am familiar with our dataset | Team Member  |
-| Anthony | some test text | ... | ... |
+| Anthony | some test text | more text. | ... |
 | ... | ... | ... | ... |
 
 ### The problem
