@@ -1,0 +1,16 @@
+name: environ
+channels:
+  - conda-forge
+dependencies:
+  - chromadb
+  - huggingface_hub
+  - langchain
+  - langchain-community
+  - langchain-core
+  - langchain-huggingface
+  - langchain-text-splitters
+  - langsmith
+  - ollama
+  - python
+  - streamlit
+prefix: /home/dacb/miniforge3/envs/mnps
